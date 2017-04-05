@@ -11,7 +11,6 @@ public class FdControl extends javax.servlet.http.HttpServlet {
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        // response.sendError(901, "asdasddas");
         PrintWriter out = response.getWriter();
         out.print("<h1>Hello!</h1>");
     }
